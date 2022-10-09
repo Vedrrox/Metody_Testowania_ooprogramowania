@@ -3,11 +3,12 @@
 #include <ctype.h>
 
 	int my_printf(char *format_string, char *param) {
-    
+    int j = 3;
     for (int i = 0; i < strlen(format_string); i++){
           if (isalpha(format_string[i])) {
-            if (islower(format_string[i]))
+            if (islower(format_string[i]) && format_string[i-j]=='#'){
                 format_string[i] = (char) toupper(format_string[i]);
+                j++;}
             else
                 format_string[i] = (char) tolower(format_string[i]);
         }
@@ -37,4 +38,5 @@
         }
         return 0;
 	}
+    
     
