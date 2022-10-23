@@ -18,22 +18,23 @@ void swap_case(char *param){
 }
 
 	int my_printf(char *format_string, char *param) {
-    
+    int a= 0 ;
     for (int i = 0; i < strlen(format_string); i++){
          if (format_string[i] != '#')
          {
             putchar(format_string[i]);
+            a = 0 ;
             continue;
          }
-
-         if (format_string[i+1] == 'k')
-         {
-            i++;
-            swap_case(param);
-            printf("%s",param);
-            continue;
-         }
-
+         if (format_string[i+1 == '.']){
+            if (format_string[i+2] == 'k')
+            {
+               i++;
+               swap_case(param);
+               printf("%s",param);
+               continue;
+            }
+      }
          if (i+2 >= strlen(format_string))
          {
             putchar(format_string[i]);
