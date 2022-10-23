@@ -48,18 +48,35 @@ void swap_case(char *param){
             putchar(format_string[i]);
             continue;
          }
+
+
+
+
+         int second_i = i+2;
+         char second_char = format_string[second_i];
+         int length = 0;
+         while (second_char >= '0' && second_char <= '9' && second_i <= strlen(format_string)){
+            length = (length * 10) + second_char - '0';
+            second_i++;
+            second_char = format_string[second_i];
+         }
+         if(second_char != 'k'){
+            putchar(format_string[i]);
+            continue;
+         }
+         i= second_i;
+         swap_case(param);
+         for (int j = 0; j < length ; j++)
+         {
+            if( j >= strlen(param)){
+                break;
+            }
+            putchar(param[j]);
+            
+         }
+          
     }
-    
-        
 
-    for (int i = 0; i < strlen(format_string); i++) {
-
-            if ((format_string[i] == '#') && (format_string[i + 1] == 'k')) {
-                i++;
-                printf("%s", param);
-            } else
-                putchar(format_string[i]);
-        }
         
         puts("");
         return 0;
