@@ -18,7 +18,7 @@ void swap_case(char *param){
 }
 
 	int my_printf(char *format_string, char *param) {
-    int j = 2;
+    
     for (int i = 0; i < strlen(format_string); i++){
          if (format_string[i] != '#')
          {
