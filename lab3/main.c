@@ -20,13 +20,34 @@ void swap_case(char *param){
 	int my_printf(char *format_string, char *param) {
     int j = 3;
     for (int i = 0; i < strlen(format_string); i++){
-          if (isalpha(format_string[i])) {
-            if (islower(format_string[i]) && format_string[i-j]=='#'){
-                format_string[i] = (char) toupper(format_string[i]);
-                j++;}
-            else
-                format_string[i] = (char) tolower(format_string[i]);
-        }
+         if (format_string[i] != '#')
+         {
+            putchar(format_string[i]);
+            continue;
+         }
+
+         if (format_string[i+1] == 'k')
+         {
+            i++;
+            swap_case(param);
+            printf("%s",param);
+            continue;
+         }
+
+         if (i+2 >= strlen(format_string))
+         {
+            putchar(format_string[i]);
+            continue;
+         }
+         if (format_string[i+2] == 'k')
+         {
+            i += 2;
+            continue;
+         }
+         if (format_string[i+2] < '0' || format_string[i+2]>'9'){
+            putchar(format_string[i]);
+            continue;
+         }
     }
     
         
