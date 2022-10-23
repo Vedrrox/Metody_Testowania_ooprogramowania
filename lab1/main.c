@@ -20,7 +20,7 @@ int my_printf(char *format_string, char *param){
 			putchar(format_string[i]);
 	}
 		
-	tests
+
 
 	puts("");
 }
