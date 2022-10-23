@@ -2,6 +2,21 @@
 #include <string.h>
 #include <ctype.h>
 
+void swap_case(char *param){
+    for (int i = 0; i <strlen(param) ; i++)
+    {
+        if (param[i] >= 'A'&& param[i] <= 'z'){
+            param[i] = param[i] + 32 ;
+        }
+        else if (param[i] >= 'a' && param[i] <= 'z') {
+			param[i] = param[i] - 32;
+		}
+    }
+
+    
+    
+}
+
 	int my_printf(char *format_string, char *param) {
     int j = 3;
     for (int i = 0; i < strlen(format_string); i++){
