@@ -14,7 +14,7 @@ def print_digits(format_string,index):
 
 
 def my_printf(format_string,param):
-    #print(format_string)
+    print(format_string)
     shouldDo=True
     buffer=""
     for idx in range(0,len(format_string)):
