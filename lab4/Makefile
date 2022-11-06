@@ -1,8 +1,8 @@
-APP=./main.js
+APP=./app
 all:
+	gcc main.c -o app
 	gcc unit.c -o tester
-	chmod +x $(APP)
 tests:
 	./tester $(APP)
 clean:
-	rm tester 
+	rm tester app
