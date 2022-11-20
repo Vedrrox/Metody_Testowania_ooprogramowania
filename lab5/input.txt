@@ -1,6 +1,6 @@
 totafsdfsf #g 1234567
 test
-totafsd #g     4
+totafsd #g     4321
 test2
 jfldjfldg # wynig2345
 test3
@@ -10,11 +10,11 @@ djfjgldsjf #g 2jjjjj 12345 flj ldfj
 test5
 gjjgdsljflds #g 456789 jdlgfjdslf
 test6
-fjdslgfjdl #g 12345tttttt
+fjdslgfjdl #g 99999345tttttt
 test7
 fjdlsjfgl #g 23456 oooolll
 test8
-rwrewrew #g 1875 fjdslgjfdl
+rwrewrew #g 00000000
 test9
 fjdlsgjfldjflj 2221#g rewrewrew
 test10
