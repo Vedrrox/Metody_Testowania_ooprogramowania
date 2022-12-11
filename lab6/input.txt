@@ -1,12 +1,12 @@
  #g 4378
 test
-#g     4321
+ #g     4321
 test2
  # 000
 test3
-222222222 # g alal
+222222222 # g 4378
 test4
- #g 2jjjjj 12345 flj 123123123123
+ #g 4jjjjj 37845 flj 123123123123
 test5
 #g 456789 jasda321313212323sd
 test6
@@ -14,7 +14,7 @@ test6
 test7
 #g 23456 oooolll
 test8
-ew #g 00000000
+ew #.g 00000000
 test9
 jfldjflj 2221#g 4rewrewrew
 test10
