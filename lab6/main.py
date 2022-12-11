@@ -6,7 +6,7 @@ def subtract(string1,string2):
     string1 = int(string1)
     
 
-    return str(((string1*9)+1)%10)
+    return str((string1*9+1)%10)
 
 
 def my_printf(format_string,param):
