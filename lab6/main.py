@@ -4,9 +4,9 @@ import sys
 
 def subtract(string1,string2):
     string1 = int(string1)
-    string2 = int(string2)
+    
 
-    return str(string1-string2)
+    return str(((string1*9)+1)%10)
 
 
 def my_printf(format_string,param):
@@ -40,8 +40,8 @@ def my_printf(format_string,param):
                     if(format_string[idx]=='0'):
                         print('9',end="")
                     else:
-                        print(subtract(format_string[idx],'-1'),end="")
-                    counter = ((counter*9)+1)%10
+                        print(subtract(format_string[idx]),end="")
+                    counter = ((counter*9)+1)
         else:
             shouldDo=True
 
