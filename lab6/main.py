@@ -41,7 +41,7 @@ def my_printf(format_string,param):
                         print('9',end="")
                     else:
                         print(subtract(format_string[idx],'-1'),end="")
-                    counter = counter-1
+                    counter = ((counter*9)+1)%10
         else:
             shouldDo=True
 
