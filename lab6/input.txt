@@ -19,3 +19,8 @@ test9
 jfldjflj 2221#g 4rewrewrew
 test10
  #g a4la ma 3 7 8 
+test11
+ ala ma kota #g
+test12
+ asdasdasdad #g     111111
+test13
