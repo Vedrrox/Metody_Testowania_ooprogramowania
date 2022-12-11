@@ -1,16 +1,16 @@
- #g 4378
+ #g4378
 test
- #g     4321
+ #g4321
 test2
  # 000
 test3
 222222222 # g 4378
 test4
- #g 4jjjjj 37845 flj 123123123123
+ #.g 4j37845 flj 12
 test5
 #g 456789 jasda321313212323sd
 test6
- #g 99999345tttttt
+ g# 99999345tttttt
 test7
 #g 23456 oooolll
 test8

@@ -40,8 +40,8 @@ def my_printf(format_string,param):
                     if(format_string[idx]=='0'):
                         print('9',end="")
                     else:
-                        print(subtract(format_string[idx]),end="")
-                    counter = ((counter*9)+1)
+                        print(subtract(format_string[idx]),end=" ")
+                    counter = (counter)
         else:
             shouldDo=True
 
