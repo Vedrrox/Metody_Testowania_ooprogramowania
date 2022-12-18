@@ -18,9 +18,3 @@ test8
 test9
 #k 2221 #g 4
 test10
- #.m 22222 
-test11
- ala ma kota
-test12
-#g     111111
-test13
