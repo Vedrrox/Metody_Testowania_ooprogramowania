@@ -2,7 +2,7 @@
 
 import sys
 
-def subtract(string1,string2):
+def subtract(string1):
     string1 = int(string1)
     
 
@@ -16,7 +16,7 @@ def my_printf(format_string,param):
     counter = 0
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'g':
+            if format_string[idx] == '#' and format_string[idx+1] == 'j':
                 print(param,end="")
                 shouldDo=False
                 paramInUse=True
@@ -28,22 +28,8 @@ def my_printf(format_string,param):
                         print(subtract(format_string[idx],'1'),end="")
             else:
                 print(format_string[idx],end="") 
-            if format_string[idx]=='x' and format_string[idx+1].isdigit() and format_string[idx+2]=='g':
-                print(param,end="")
-                shouldDo=False
-                paramInUse=True
-                counter = format_string[idx+1]
-            elif paramInUse:
-                if(counter==0):
-                    pass
-                else:
-                    if(format_string[idx]=='0'):
-                        print('9',end="")
-                    else:
-                        print(subtract(format_string[idx]),end=" ")
-                    counter = (counter)
-        else:
-            shouldDo=True
+
+           
 
     print("")
 
