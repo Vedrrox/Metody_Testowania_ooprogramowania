@@ -1,20 +1,19 @@
-totafsdfsf #k fdsfsdf
+ #j 10
 test
-totafsd#k fdsfsdf fdfjs
+#j 15
 test2
-jfldjfldk # wynik
+# 225344 
 test3
-fjdfsfds # k alal
+ # j alal
 test4
-djfjkldsjf #k jjjjjj fsfjdljfdlsj flj ldfj
+ #j 2225
 test5
-gjjkdsljflds #k jdlkfjdslf
+ #j jdlkfjdslf
 test6
-fjdslkfjdl #k tttttt
+ #j tttttt
 test7
-fjdlsjfkl #k oooolll
-test8
-rwrewrew #k fjdslkjfdl
+ #j
+ #j fjdslkjfdl
 test9
-fjdlskjfldjflj #k rewrewrew
+ #j rewrewrew
 test10
