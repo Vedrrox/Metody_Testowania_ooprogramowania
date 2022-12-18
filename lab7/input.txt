@@ -1,19 +1,26 @@
- #j 10
+ #g4378
 test
-#j 15
+ #g4321
 test2
-# 225344 
+ # 000
 test3
- # j alal
+222222222 # g 4378
 test4
- #j 2225
+ #.g 225344
 test5
- #j jdlkfjdslf
+#g 229294
 test6
- #j tttttt
+ g.# 99999345
 test7
- #j
- #j fjdslkjfdl
+#g 23456 
+test8
+ #.g 00000000
 test9
- #j rewrewrew
+#k 2221 #g 4
 test10
+ #.m 22222 
+test11
+ ala ma kota
+test12
+#g     111111
+test13

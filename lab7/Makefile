@@ -1,8 +1,8 @@
-APP=./app
+APP=./main.py
 all:
-	gcc main.c -o app
 	gcc unit.c -o tester
+	chmod +x $(APP)
 tests:
 	./tester $(APP)
 clean:
-	rm tester app
+	rm tester
