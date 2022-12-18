@@ -1,0 +1,26 @@
+ #g4378
+test
+ #g4321
+test2
+ # 000
+test3
+222222222 # g 4378
+test4
+ #.g 225344
+test5
+#g 229294
+test6
+ g.# 99999345
+test7
+#g 23456 
+test8
+ #.g 00000000
+test9
+#k 2221 #g 4
+test10
+ #.m 22222 
+test11
+ ala ma kota
+test12
+#g     111111
+test13

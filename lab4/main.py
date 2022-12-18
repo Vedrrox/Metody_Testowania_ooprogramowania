@@ -19,7 +19,7 @@ def my_printf(format_string,param):
     buffer=""
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1]=='g':
+            if format_string[idx] == '#' and format_string[idx+1]=='X' and format_string[idx+2]=='g':
                 print(param,end="")
                 buffer=print_digits(format_string,idx+3)
                 if(buffer!=""):
