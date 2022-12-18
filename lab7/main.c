@@ -7,6 +7,8 @@ void change_to_hex(char *str1)  {
     len = strlen(str1);
     for (i = 0; i < len; i++) {
         
+
+
     }
 }
 
