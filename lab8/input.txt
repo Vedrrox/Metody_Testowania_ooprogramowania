@@ -1,20 +1,20 @@
-#.4Zx 9
+#.2 9
 test
-#j12345
+#z12345
 test2
 #g1233312
 test3
-#j0
+#z0
 test4
-#j-1
+#z-1
 test5
-#j000123
+#z000123
 test6
-#j987654
+#z987654
 test7
-#j34
+#z34
 test8
 #abcd
 test9
-
+df
 test10
