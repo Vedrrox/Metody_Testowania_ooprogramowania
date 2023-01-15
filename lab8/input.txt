@@ -1,26 +1,20 @@
- #j 4378
+#.4Zx 9
 test
- #g4321
+#j12345
 test2
- # 000
+#g1233312
 test3
-222222222 # g 4378
+#j0
 test4
- #.g 225344
+#j-1
 test5
-#g 229294
+#j000123
 test6
- g.# 99999345
+#j987654
 test7
-#g 23456 
+#j34
 test8
- #.g 00000000
+#abcd
 test9
-#k 2221 #g 4
+
 test10
- #.m 22222 
-test11
- ala ma kota
-test12
-#g     111111
-test13
