@@ -25,6 +25,7 @@ def my_printf(format_string,param):
                 HexNumberToString= HexNumberToString.replace("d", "j")
                 HexNumberToString= HexNumberToString.replace("e", "k")
                 HexNumberToString= HexNumberToString.replace("f", "l")
+                HexNumberToString = HexNumberToString.replace("0", "o")
                 print(HexNumberToString)
                 shouldDo=False
             else:
