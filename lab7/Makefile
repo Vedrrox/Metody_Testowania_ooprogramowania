@@ -1,8 +1,8 @@
-APP="java main.java"
+APP=./main.py
 all:
 	gcc unit.c -o tester
-	exit 0
+	chmod +x $(APP)
 tests:
 	./tester $(APP)
 clean:
-	rm tester 
+	rm tester
